@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   body {font-family: 'DM Sans', sans-serif;
+    font-weight: bold;}
+
+  .app {
+   
+  }
+
+  .app__header__search {
+    flex: 1;
+    padding: 6px;
+  }
+  
+  .app_header__button {
+    padding: 6px;
+  }
+  /* ทำช่อง serach */
+  li {
+    list-style: none;
+    color: white;
+    padding: 5px;
+  }
+
+  .nav {
+    /* background: wheat; */
+    /* Sol-2 */
+    /* display: flex;
+    align-items: center; */
+  }
+  
+  .nav__list {
+    display: flex;
+    gap: 10px;
+    /* background: red; */
+    /* Sol-3 */
+    /* height: 100%;
+    align-items: center; */
+  }
+  .app__header {
+    background: lightblue;
+    height: 64px;
+    padding: 15px;
+    /* Parent-Flex */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+
+  .storage {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .app__content {
+    /* padding:20px; */
+    background: white;
+    flex: 1;
+    flex-flow: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+  }
+
+  .app__content__item {
+    display: flex;
+    /* border:  solid red; */
+    /* width: 100px; */
+    height: 100vh;
+    /* background-color: red; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+
+  .item__picture {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    
+     border: 3px solid lightblue;
+     box-shadow: 0 4px 8px 0 #d6c5d3;
+     /* padding-top: 5px; */
+
+   /* background-color: green; */
+    /* z-index: -1; */
+  }
+
+  .item__picture__pic  {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+  }
+
+  /* img {
+    width: 200px;
+    height: 200px;
+
+  } */
+  .app__b1__inner {
+    /* background: green; */
+    flex-flow: row;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+  .app__footer {
+    background: wheat;
+    
+    /* height: 64px; */
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .description
+  {
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+  }
+/*   
+  @media (max-width: 768px) {
+    .header {
+      justify-content: center;
+    }
+  
+    .nav {
+      /* background: wheat; */
+      /* flex: 1;
+    }
+  
+    .nav__list {
+      justify-content: space-around;
+    } 
+    
+  } */
+  
+  
